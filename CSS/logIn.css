@@ -6,6 +6,17 @@ body{
     background-repeat: no-repeat;
 }
 
+body:after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(../images/fitLaneLogo.jpg);
+    display: block;
+    clear: both;
+}
+
 .container{
     width: 35%;
     height: 10%;
@@ -88,4 +99,15 @@ button{
     background-color: black;
     font-size: 15px;
     font-weight: 600;
+}
+
+button:hover{
+    background-color: green;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
 }
