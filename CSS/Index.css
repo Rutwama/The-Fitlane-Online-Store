@@ -253,7 +253,7 @@ footer {
     .banner {
         background-image: url(../Images/slide.jpg);
         background-position-x: center;
-        background-repeat: no-repeat;
+        background-repeat:repeat;
         background-size: cover;
     }
 
